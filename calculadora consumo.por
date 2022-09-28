@@ -3,13 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro soma
-		inteiro litro, distancia
+		real soma
+		real litro, distancia
 		escreva("qual sua distancia percorrida ")
 		leia(distancia)
-		escreva("quantos litros gastos ")
+		escreva("\nquantos litros gastos ")
 		leia(litro)
-		escreva("seu consumo medio e:", distancia / litro, "km/l ")
+		soma = distancia / litro
+	        escreva("\nseu consumo medio e:", soma, "km/l ")
           
 	
 		
