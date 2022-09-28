@@ -1,0 +1,26 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro soma
+		inteiro bm, bma, hal
+escreva("insira bm ")
+leia(bm)
+escreva("insira bma ")
+leia(bma)
+escreva("insira hal ")
+leia(hal)
+soma = (bm + bma) * (hal) / 2
+
+	escreva ("a area do seu trapezio e ", soma )
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
